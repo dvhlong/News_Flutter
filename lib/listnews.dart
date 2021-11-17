@@ -32,7 +32,7 @@ class _ListNewsState extends State<ListNews> {
   var words=generateWordPairs().take(20);
    late Future<News> ns ;
    Future<News> fetchData() async {
-     String url = "https://newsapi.org/v2/everything?domains=washingtonpost.com&apiKey=e7f944b2666a493a807df7cb39ebee92";
+     String url = "https://newsapi.org/v2/everything?domains=tinhte.vn&apiKey=e7f944b2666a493a807df7cb39ebee92";
 
      var response = await http.get(Uri.parse(url));
      if (response.statusCode == 200) {
