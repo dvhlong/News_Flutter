@@ -58,7 +58,7 @@ class _ListNewsState extends State<ListNews> {
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         leading: Icon(Icons.message,color: Colors.white,),
-        title: Text("News",style: TextStyle(color: Colors.white))
+        title: Text("Tinh Tế News",style: TextStyle(color: Colors.white))
       ),
       body: Column(
         children: [
